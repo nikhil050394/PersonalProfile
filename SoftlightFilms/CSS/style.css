@@ -1,0 +1,659 @@
+﻿body {
+}
+.crewinner {
+     color: black;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: center;
+    background-color: #151313ad;
+ 
+   /*Remove above line if navbar fixed is removed*/
+    border: 8px #fbc011 solid;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+.navbar-nav li {
+text-align:left;
+}
+  .title {
+  font-family:Oswald-Medium;
+         color:#fff;
+        font-size:40px;
+        }
+
+.mainbody {
+height:92vh;
+overflow:auto;
+}
+.maincontent {
+    height: 80vh;
+    margin-top:12vh;
+    overflow: auto;
+    }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #fbc011;
+}
+
+@font-face {
+    font-family: Captureit;
+    src: url(../fonts/Captureit.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald ExtraLight';
+    src: url(../fonts/Oswald-ExtraLight.ttf);
+}
+
+
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url(../fonts/Oswald-Medium.ttf);
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../fonts/BebasNeue-Regular.otf);
+}
+
+@font-face {
+    font-family: Blackout;
+    src: url(../fonts/Blackout.ttf);
+}
+
+
+
+.mainbody {
+background-image: url(../resources/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+       overflow-x:hidden;
+}
+.centerbody {
+    position:relative;
+    margin-top: 10vh;
+}
+.footer {
+    font-size: 16px;
+    background: #1b1b1b;
+    text-align: center;
+    padding-top: 20px;
+    height: 8vh;
+    font-family:regular;
+    font-weight:900;    
+    color:rgb(119, 119, 119);
+}
+.navbar {
+   margin-bottom: 0px;
+}
+.navbar-inverse {
+background:transparent;
+border-color:transparent;
+margin-top:20px;
+color:#fff;
+    width: 100vw;
+}
+    .navbar-inverse .navbar-nav > li > a {
+    color:#fff;
+    }
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color:#fbc011;
+    color:#fff;
+
+    }
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color:#fbc011;
+    color:#fff;
+    }
+
+.dropdown-submenu{ position: relative; }
+
+.dropdown-submenu>.dropdown-menu{
+  top:0;
+  left:100%;
+  margin-top:-6px;
+  margin-left:-1px;
+  -webkit-border-radius:0 6px 6px 6px;
+  -moz-border-radius:0 6px 6px 6px;
+  border-radius:0 6px 6px 6px;
+}
+
+.dropdown-submenu>a:after{
+  display:block;
+  content:" ";
+  float:right;
+  width:0;
+  height:0;
+  border-color:transparent;
+  border-style:solid;
+  border-width:5px 0 5px 5px;
+  border-left-color:#cccccc;
+  margin-top:10px;margin-right:-10px;
+}
+
+.dropdown-submenu.pull-left{ float: none; }
+.dropdown-submenu.pull-left>.dropdown-menu{
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+
+
+ul li {
+    color: #777777;
+    position: relative;
+    padding-left: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    list-style: none;
+}
+
+li a {
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+}
+
+.dropdown-menu > li > a {
+color:rgb(119, 119, 119)
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #fbc011;
+        border-color: #eee;
+}
+.dropdown-menu > li > a:hover {
+color:#fff;
+background-color:#fbc011;
+}
+.inner h3 {
+text-align:center;
+}
+.dropdown-menu > li:hover {
+color:#fff;
+background-color:#fbc011;
+}
+#logo img {
+    height: 65px;
+    padding: 5px;
+    margin-top: -25px;
+    margin-left:20px;
+}
+
+.leftside {
+    height: 80vh;
+    padding: 0px;
+}
+
+.trailer {
+    height: 80vh;
+    padding: 0px;
+}
+
+.foot-text {
+    font-size: 32px;
+    color: #171616;
+    font-family: 'Captureit';
+    position: absolute;
+    bottom: -25px;
+    left: 25px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.trailer iframe {
+    width: 100%;
+    height: 73.3%;
+    position: absolute;
+    bottom: 17%;
+    border: 5px solid #fff;
+}
+.rightside {
+    height: 80vh;
+    padding: 2%;
+    font-family: 'Blackout';
+}
+.right-text {
+      margin-bottom: 5px;
+    margin-top: 200px;
+}
+.inner {
+     color: black;
+    font-weight: 600;
+    font-size: x-large;
+    text-align: justify;
+    background-color: #dad5d5ad;
+ font-family:'Oswald ExtraLight';
+   /*Remove above line if navbar fixed is removed*/
+    border: 8px #fbc011 solid;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+   
+}
+
+
+.right-text h1{
+   margin:0px;
+   padding:0px;
+}
+
+.right-text-top {
+    font-size: 35px;
+    color: #000000;
+    text-align: center;
+}
+
+.right-text-bottom {
+    font-size: 75px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 1400px) and (min-width: 1200px){
+    .right-text-bottom {
+        font-size: 65px;
+    }
+    .right-text-top {
+        font-size: 30px;
+    }
+    .CommonBody{
+        margin-top: 2%;
+    }
+    #bottom-text {
+        letter-spacing: 1.1px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1000px){
+    header {
+        top: 0px;
+        background: #000;
+    }
+    .right-text-top {
+        font-size: 26px;
+        text-align: center;
+    }
+    .right-text-bottom {
+        font-size: 60px;
+    }
+    .right-text {
+        bottom: 3%;
+        right: 11%;
+    }
+    #bottom-text {
+        letter-spacing: 1.1px;
+    }
+    .trailer iframe {
+        width: 130%;
+        height: 64%;
+        position: absolute;
+        bottom: 37%;
+        border: 5px solid #fff;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 700px){
+    header {
+        top: 0px;
+        background: #000;
+    }
+    .trailer  {
+        height: 38vh;
+      
+    }
+    .carousel-indicators {
+    bottom:70px;
+    }
+      .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    min-width:60vw;
+    max-width:90vw !important;
+        border-radius: 12%;
+    height:40vh;
+    margin-top:50px;
+
+    }
+    .mobilecarousel,.imageplace, .imageplace img {
+    display:none;
+    }    
+    .trailer iframe {
+        height: 100%;
+        bottom:0%;
+    }
+    .rightside {
+    height: 40vh;
+    font-family: 'Blackout';
+}
+    .right-text {
+        bottom: 10%;
+        right: 145%;
+          margin-bottom: 5px;
+         
+          
+           margin-top:0px;
+    }
+    .controllers {
+    height:60vh !important;
+    }
+    .right-text-bottom {
+        font-size: 40px;
+    }
+    .right-text-top {
+        font-size: 33px;
+    }
+    .right-text {
+  
+    /* margin-top: 200px; */
+}
+}
+
+@media (max-width: 700px) and (min-width: 500px){
+    .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    min-width:40vw;
+    max-width:70vw !important;
+        border-radius: 12%;
+    height:40vh;
+    
+
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #000;
+      
+    }
+
+
+    .mobilecarousel,.imageplace, .imageplace img {
+    display:none;
+    }    
+    header {
+        top: 0px;
+        background: #000;
+    }
+    .footer {
+        font-size: 14px;
+    }
+    .trailer {
+    height:40vh;
+    }
+    .right-text {
+        bottom: 10%;
+        right: 145%;
+    }
+    .right-text-top {
+        font-size: 24px;
+    }
+    .right-text-bottom {
+        font-size: 55px;
+    }
+    .right-text {
+        bottom: 14%;
+        right: 128%;
+    }
+    .navbar-inverse {
+        background: #000000;
+         margin-top: 0px;
+        
+    }
+    .navbar .container-fluid {
+    padding:0;
+    margin:0;
+    }
+    .mainbody {
+    margin:0;
+    padding:0;
+    } 
+
+        .rightside {
+    height: 40vh;
+    padding: 2%;
+    font-family: 'Blackout';
+}
+        .right-text {
+   margin-top:0px;
+}
+        .right-text-top {
+    font-size: 30px;
+    padding:10px;
+}
+    .right-text-bottom {
+    padding:20px;
+    font-size: 40px;
+    }
+    .foottext {
+        bottom: 8vh;
+    position: fixed;
+
+    }
+    .foot-text {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .title {
+    font-size:30px;
+    }
+       .carousel-inner>.active {
+    left: 0 !important;
+}
+
+       .navbar-nav {
+    margin: 0px -15px;
+}
+
+    .controllers {
+    height:100% !important;
+    }
+    .carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    min-width:40vw;
+    max-width:70vw !important;
+        border-radius: 12%;
+    height:40vh;
+    
+
+    }
+
+    .carousel-indicators {
+    bottom:70px;
+    }
+    .carousel-caption h2{
+        font-size:20px !important;
+        margin-top:20px !important;
+        padding:0px !important;
+
+    }
+    .carousel-caption p{
+        margin:0px;
+        margin-top:5px;
+        padding:0px;
+        font-size:18px !important;
+    }
+    .carousel {
+        /*display:none;*/
+    }
+    .imageplace{
+      
+    }
+    .imageplace img{
+    min-width:40vw;
+    max-width:60vw;
+        border-radius: 12%;
+    height:40vh;
+     background-size:contain;
+     background-repeat:no-repeat;
+    }
+    .crewinner {
+    min-height:65vh;
+    }
+    .titletext {
+    font-size:20px;
+    color:#fff;
+    font-weight:400;
+
+    }
+
+     .notitletext {
+    font-size:18px;
+    color:#fff;
+    font-weight:300;
+
+    }
+
+    .mobilecarousel {
+   margin:0;padding:5px;
+    }
+    header {
+        top: 0px;
+        background: #000;
+    }
+    .navbar-inverse {
+        background: #000000;
+         margin-top: 0px;
+    }
+    .navbar .container-fluid {
+    padding:0;
+    margin:0;
+    }
+    .mainbody {
+    margin:0;
+    padding:0;
+    }
+    .footer {
+        font-size: 12px;
+    }
+    
+    .rightside {
+    height: 30vh;
+    padding: 2%;
+    font-family: 'Blackout';
+}
+    .right-text {
+        margin-top: 30px;
+    }
+    .trailer {
+        height: 40vh !important;
+    }
+        .trailer iframe {
+            height:100%;
+            bottom:0%;
+        }
+
+    /*.trailer iframe {
+        height: 39.5%;
+        bottom: 55%;
+        right: -11%;x
+        width: 120%;
+    }*/
+    .right-text {
+        bottom: 25%;
+        right: 140%;
+    }
+    .right-text-top {
+        font-size: 25px;
+    }
+
+    .foottext {
+        height: 10vh;   
+    }
+    .right-text-bottom {
+        font-size: 50px;
+        text-align: center;
+    }
+    .right-text {
+        bottom: 25%;
+        right: 140%;
+    }
+    .foot-text{
+       left:0px;  
+    font-size: 20px;
+
+    }
+
+
+    .inner {
+        max-width: 100%;
+        padding: 20px 10px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .inner h1{
+        font-size: 20px;
+    }
+    .inner h2{
+        font-size: 16px;
+    }
+    .inner p {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .default-arrow{
+        display: none;
+    }
+}
+
+
+    .dropdown-menu{
+        margin-top: 0;
+    }
+    .dropdown-toggle{
+        margin-bottom: 2px;
+    }
+    .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+        margin-bottom: 0;
+    }
+
+/* Carousel Styles */
+
+.carousel-caption {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  bottom: 0px;
+  z-index: 10;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #000;
+  text-shadow: none;
+ 
+}
+
+.carousel {
+    position: relative;
+}
+
+.controllers {
+    position: absolute;
+    top: 0px;
+}
+
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none;
+}
+
+
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #fff;
+	border-radius: 1px;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+	border-radius: 10px;
+
+}

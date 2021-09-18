@@ -1,0 +1,346 @@
+html
+{
+    overflow:hidden;
+    width:99.9%;
+    height:100%;
+}
+body
+{
+    overflow-x:scroll;
+    overflow-y:none;
+    }
+*{
+margin:0px;
+padding:0px;
+}
+
+#slide1{
+ background-image: url("../img/1.png");
+width:100vm;
+height:100vh;
+background-attachment:fixed;
+background-size:cover;
+background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#slide2{
+background-image: url("../img/2.png");
+width:100vm;
+height:100vh;
+position:inherit;
+background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#slide3{
+background-image: url("../img/3.png");
+width:100vm;
+height:100vh;
+background-attachment:fixed;
+background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#slide4{
+background-image: url("../img/4.png");
+width:100vm;
+height:100vh;
+background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#slide5{
+background-image: url("../img/5.png");
+width:100vm;
+height:100vh;
+background-attachment:fixed;
+background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.vNav {
+    position: fixed;
+    top: 40%;
+    left: 2%;
+    width: 50px;
+    z-index: 9999;
+    list-style-type: none;
+}
+
+.vNav ul {
+    position: relative;
+    padding: 3px;
+    padding-left: 35%;
+}
+
+.vNav ul li{
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 35%;
+    color: rgb(113,135,133);
+}
+
+.vNav a{
+    display: block;
+    width:15px;
+    height: 15px;
+    text-indent: -9999px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: white;
+    text-decoration: none;
+}
+
+.vNav a:hover{
+    border-radius: 50%;
+    background-color: rgb(113,135,133);
+    text-decoration: none;
+}
+
+.vNav a:hover .label {
+    display: block;
+    color:White;
+}
+
+.vNav a.active{
+    border-radius: 50%;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+.label {
+    position: relative;
+    
+    left: 500%;
+    width: 100%;
+    text-align: right;
+    font-size: .75em;
+    color: rgb(113,135,133);
+    display: none;
+}
+
+.nav .active .label {
+    display: block;
+}
+
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+ border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: #3366FF;
+}
+
+.abc::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.abc::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.abc::-webkit-scrollbar-thumb {
+ border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: #3366FF;
+}
+.signup
+{
+    background-color:rgba(0,0,0,0.15);
+    padding-top:15px;
+    }
+ .inputBoxes
+ {
+     width:100%;
+     height:35px;
+     margin-top:1px;
+     font-size:20px;
+     padding:8px;
+     font-weight:bold;
+     font-family:Calibri Light;
+ }
+ button:focus
+ {
+     outline:none;
+ }
+ #submitBtn
+ {
+     margin-top:10px;
+     background-color:rgba(0,0,0,0.4);
+     width:100%;
+     color:White;
+     border:none;
+     height:35px;
+     font-weight:bold;
+     font-size:20px;
+     font-family:Calibri Light;
+ }
+ #submitBtn:hover
+ {
+    opacity:0.6;
+ }
+   #submitBtn:active
+ {
+    opacity:1;
+ }
+ #fb
+ {
+     background-image: url("../img/fb.png");
+     width:3.5vw;
+     height:3.5vw;
+     background-size:115%;
+     background-position:center;
+     border-radius:50px;
+     float:left;
+     margin-left:5vw;
+      -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(100%);
+    filter: url('../img/gray.svg#grayscale');
+    filter: gray;
+    opacity:0.6;
+    border:none;
+ }
+ #fb:hover
+ {
+    opacity:0.4;
+ }
+  #fb:active
+ {
+    opacity:0.6;
+ }
+  #gp
+ {
+     background-image: url("../img/go.png");
+     
+     width:3.5vw;
+     height:3.5vw;
+     border-radius:50px;
+     background-size:122%;
+     background-position:center;
+     float:left;
+     margin-left:5vw;
+    -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(1);
+    filter: grayscale(100%);
+    filter: url('../img/gray.svg#grayscale');
+    filter: gray;
+    opacity:0.6;
+    border:none;
+    
+ }
+ #gp:hover
+ {
+    opacity:0.4;
+ }
+  #gp:active
+ {
+    opacity:0.6;
+ }
+.userimage
+{
+background-image: url("../img/Leftmenu.png");
+background-size:cover;
+}
+.image
+{
+    border:1px solid black;
+    height:150px;
+    width:150px;
+    margin-left:230px;
+    margin-top:20px;
+    border:none;
+    background:none;
+}
+ .quotation1
+    {
+        background-image:url("../img/quote.png");
+        height:70px;
+        width:106px;
+        background-size:cover;
+        position:absolute;
+        opacity:0.15;
+    }
+    .quotes
+    {
+        z-index:1000;
+        float:left;
+    }
+.slideFiveQuotes
+{
+    color:White;
+}
+
+.slideFiveQuotes li
+{
+    margin-top:5px;
+    
+    }
+     .quotes span
+     {
+         color:white !important;
+         font-size:22px;
+         font-family:Calibri Light;
+         }
+    Quoter
+    {
+      font-style:italic;
+        }
+   .signin
+   {
+       color:White;
+       font-family:Calibri;
+       font-size:1.5vw;
+       border:none;
+       margin-right:5vw;
+       height:6vh;
+       width:10vw;
+       float:right;
+       margin-top:2vw;
+       background-color:rgba(0,0,0,0.1);
+   }
+   .signin:hover
+   {
+       background-color:rgba(0,0,0,0.2);
+   }
+   
+  img
+{
+    width:65%;
+    height:50%;
+}
+.name
+{
+    height:5%;
+}
+.nameOfPerson
+{
+}
+.announce
+{
+    padding:2%;
+    background-color:white;
+    border-radius:10px;
+    box-shadow: 10px 10px 30px #999999;
+    text-align:center;
+    font-family:Calibri;
+    font-size:15px;
+}

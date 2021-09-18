@@ -1,0 +1,584 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0px;
+  padding: 0px !important;
+}
+
+.Personal-Image {
+  height: 100vh;
+  background-image: url("../img/pic.jpg");
+  background-size: cover;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.Personal-Menu {
+  height: 100vh;
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow: hidden;
+}
+
+.Profile {
+  background-image: url("../img/profile_btn.jpg");
+  height: 25vh;
+  position: absolute;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+.Profile:hover {
+  -moz-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+.Resume {
+  background-image: url("../img/resume_btn.jpg");
+  height: 25vh;
+  position: absolute;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+
+.Resume:hover {
+  -moz-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+
+.Portfolio {
+  background-image: url("../img/portfolio_btn.jpg");
+  height: 25vh;
+  position: absolute;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+.Portfolio:hover {
+  -moz-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+.Contact {
+  background-image: url("../img/contact_btn.jpg");
+  height: 25vh;
+  position: absolute;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -moz-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+.Contact:hover {
+  -moz-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+.homepage {
+  padding: 0px !important;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #1a1b23;
+}
+
+.load {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/load.gif");
+  background-size: cover;
+  z-index: 1000;
+}
+
+.personal_detail {
+  position: relative;
+  z-index: 10;
+  top: 70%;
+  opacity: 0.9;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 63px !important;
+  font-weight: 500 !important;
+  font-family: "Hind", sans-serif !important;
+}
+
+span {
+  color: #6a8d9d;
+}
+
+social-media a {
+  color: #fff;
+  text-decoration: none;
+  outline: 0 none;
+  padding: 0 10px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+.social-media {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  outline: 0 none;
+  padding: 0 10px;
+}
+
+.social-media a + .tooltip > .tooltip-inner {
+  background-color: transparent;
+  color: #6a8d9d;
+  font-size: 16px;
+}
+.social-media a + .tooltip > .tooltip-arrow {
+  border-bottom-color: transparent;
+}
+
+/*Bootstrap tooltips Customized*/
+
+.social-media a:hover {
+  color: #6a8d9d;
+}
+.fa-facebook {
+  background-image: url("../img/fb.png");
+  background-size: cover;
+  width: 20px;
+  z-index: 1000;
+  height: 20px;
+}
+.fa-twitter {
+  background-image: url("../img/twitter.png");
+  background-size: cover;
+  width: 25px;
+  z-index: 1000;
+  height: 20px;
+}
+
+.fa-plus {
+  background-image: url("../img/gplus.png");
+  background-size: cover;
+  width: 20px;
+  z-index: 1000;
+  height: 20px;
+}
+
+.fa-linkedin {
+  background-image: url("../img/linkdin.png");
+  background-size: cover;
+  width: 20px;
+  z-index: 1000;
+  height: 20px;
+}
+
+.fa-hacker {
+  background-image: url("../img/hackerearth.png");
+  background-size: cover;
+  width: 20px;
+  z-index: 1000;
+  height: 20px;
+}
+.fa-instagram {
+  background-image: url("../img/insta.png");
+  background-size: cover;
+  width: 20px;
+  z-index: 1000;
+  height: 20px;
+}
+
+.heading h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 25px;
+  opacity: 0.9;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.heading h3 {
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 16px;
+  opacity: 0.9;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.heading {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.profilehomepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+  padding: 0 !important;
+}
+
+.profile-left {
+  height: 99.9%;
+  background-image: url("../img/profile_image.jpg");
+  background-size: cover;
+  padding: 0;
+}
+
+.profile-right {
+  padding: 0;
+  overflow: auto;
+  height: 100%;
+}
+
+.profile-me {
+  float: left;
+  width: 100%;
+  background-image: url("../img/story_bg.jpg");
+  background-size: cover;
+  min-height: 90vh;
+  height: auto;
+  padding: 0;
+  top: 0;
+  background-attachment: fixed;
+}
+
+.main-heading {
+  position: relative;
+  top: 50%;
+  padding-left: 50px !important;
+  -webkit-transform: translateY(200%);
+  -moz-transform: translateY(200%);
+  -ms-transform: translateY(200%);
+  -o-transform: translateY(200%);
+  transform: translateY(200%);
+}
+
+.main-heading h1 {
+  color: #fff;
+  position: relative;
+  text-align: left;
+}
+.main-heading h1:after {
+  background-color: #6a8d9d;
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  margin-left: 50px !important;
+  width: 400px;
+  height: 6px;
+}
+.close-btn {
+  background: url(../img/close.png);
+  z-index: 1000;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  right: 3%;
+  top: 30px;
+  background-size: cover;
+  display: none;
+}
+
+.heading-profile {
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.width-set {
+  width: inherit !important;
+  margin-top: 5vh;
+}
+
+.myImage {
+  background-image: url("../img/me.JPG");
+  height: 50vh;
+  background-size: cover;
+}
+
+.MyDescription {
+  color: black;
+  font-size: 18px;
+  padding-left: 50px !important;
+  text-align: justify;
+  font-family: "Trebuchet MS";
+}
+#resumebutton:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.profile_ican {
+  float: left;
+  height: auto;
+  background-color: #6a8d9d;
+  width: 100%;
+  text-align: center;
+}
+
+.thingsicando {
+  height: 40vh;
+  color: white;
+  padding: 5px !important;
+}
+.thingsicando:hover {
+  background-color: #96afba;
+}
+
+.salutation {
+  color: white !important;
+  text-align: left;
+  font-size: 20px;
+  padding: 2vh !important;
+  background-color: #6a8d9d;
+}
+
+.resumehomepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+  padding: 0 !important;
+}
+
+.resume-left {
+  height: 99.9%;
+  background-image: url("../img/resume_image.jpg");
+  background-size: cover;
+  padding: 0;
+}
+
+.portfoliohomepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+  padding: 0 !important;
+}
+
+.portfolio-left {
+  height: 99.9%;
+  background-image: url("../img/portfolio_image.jpg");
+  background-size: cover;
+  padding: 0;
+}
+
+.contacthomepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: none;
+  padding: 0 !important;
+}
+
+.contact-left {
+  height: 99.9%;
+  background-image: url("../img/contact_image.jpg");
+  background-size: cover;
+  padding: 0;
+}
+
+.resume-right {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.portfolio-right {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.education {
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+.school {
+  background-color: #6a8d9d;
+  height: 35px;
+  color: white;
+  margin-top: 10px !important;
+}
+
+.content {
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+}
+
+.school h3:before {
+  border-color: transparent #6a8d9d transparent transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 10px;
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 5px;
+}
+
+.school h3 {
+  text-indent: 10px;
+  background: #6a8d9d;
+  color: #fff;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.Experience {
+  height: auto;
+  background-color: #6a8d9d;
+}
+
+.heading-experience {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.work {
+  background-color: white;
+  height: 35px;
+  color: #6a8d9d;
+  margin-top: 10px !important;
+}
+.work h3:before {
+  border-color: transparent transparent transparent #fff;
+  border-image: none;
+  border-style: solid;
+  border-width: 10px;
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 5px;
+}
+.work h3 {
+  background: white;
+  color: #6a8d9d;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  position: relative;
+  font-weight: 500;
+  text-indent: 10px;
+}
+
+.Skills {
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+.contact_me {
+  height: auto;
+  background-color: #f5f5f5;
+}
+.contact_me1 {
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+.contact-right {
+  height: 100%;
+  overflow: auto;
+}
+
+.contactdetails {
+  height: 25 vh;
+  margin-top: 10px !important;
+  text-align: center;
+}
+
+.somecontent {
+  height: 10vh;
+  position: relative;
+}
+
+.somecontent span {
+  bottom: 0;
+  color: black;
+  text-align: center !important;
+  font-size: 16px;
+}
