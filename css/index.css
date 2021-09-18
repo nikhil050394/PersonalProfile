@@ -365,7 +365,7 @@ social-media a {
 }
 
 .myImage {
-  background-image: url("../img/me.JPG");
+  background-image: url("../img/me.jpg");
   height: 50vh;
   background-size: cover;
 }
